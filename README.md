@@ -9,7 +9,7 @@ Kao i građevinama nastalim u određenim epohama sa informacijama o nadolazećim
 
 # SPIRALA 1.
 
-# Šta je urađeno?
+## Šta je urađeno?
 Skice stranica (index.html/pocetna.html,novosti.html, historija.html, sarajevskePrice.html, login.html) za desktop, kao i za mobilne uređaje.
 Sve stranice (gore navedene) imaju grid-view izgled i responzivne su.
 Putem media query-a napravljen je izgled za mobilne uređaje (poseban css file za mobilne uređaje: stil2.css)
@@ -21,15 +21,15 @@ Html forme:
 4) Anketa (Stranica: historija.html)
 Napravljen je meni (vidljiv na svim stranicama).
 
-# Šta nije urađeno?
+## Šta nije urađeno?
 -
 
-# Bug-ovi koje ste primijetili, ali niste stigli ispraviti, a znate rješenje (opis rješenja)
+## Bug-ovi koje ste primijetili, ali niste stigli ispraviti, a znate rješenje (opis rješenja)
 -
 
-# Bug-ovi koje ste primijetili, ali ne znate rješenje
+## Bug-ovi koje ste primijetili, ali ne znate rješenje
 -
-# Lista fajlova u formatu NAZIVFAJLA - Opis u vidu jedne rečenice šta se u fajlu nalazi
+## Lista fajlova u formatu NAZIVFAJLA - Opis u vidu jedne rečenice šta se u fajlu nalazi
 
 CSS:
 stil1.css - stil za desktop uređaje
