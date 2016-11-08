@@ -1,4 +1,4 @@
-# Sarajevo Through Time
+# Sarajevo Through History
 
 Vildana Panjeta (17087)
 
