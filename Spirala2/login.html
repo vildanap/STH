@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<HTML>
+
+<HEAD>
+<TITLE>
+Sarajevo Through History
+</TITLE>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Delicious">
+<link rel="stylesheet" media='screen and (min-width: 960px), (orientation:landscape) and (min-width:800)' href="stil1.css"/>
+<link rel="stylesheet" media='screen and (min-width: 300px) and (max-width:960px)' href="stil2.css"/>
+
+
+</HEAD>
+
+<body id="loginBody">
+	
+<div class="red">
+<div id="log" class="kolona jedan">
+<h1> Prijava registriranih korisnika</h1> 
+</div>
+<div id="signUp" class="kolona jedan">
+<h1> Nemate račun? Registrujte se.</h1> 
+
+</div>
+</div>
+<div id="logForma" class="kolona jedan">
+<form name="loginForma" id="lf" method="GET" action="http://google.com" onsubmit="event.preventDefault();return validirajLogIn()">
+<table border="0">
+
+		<tr>
+			<td> Username: <input align=right type="text" name="ime"></input> <p id="porukaIme" ></p> </td> </tr>
+			<tr>
+			<td> Password: <input align=right type="text" name="password"></input> <p id="porukaPass"></p></td> 	
+		</tr>
+		<tr>
+		<td> <input type="submit" value="Prijavi se">  </td>
+		</tr>
+	</table>
+</form>
+<script src="file.js"></script>
+</div>
+
+
+<div id="signUpForma" class="kolona jedan">
+<form name=signInForma id="sf" action="login.html" method="GET" onsubmit="event.preventDefault();return validirajSignIn()">
+<table border="0">
+
+		<tr>
+			<td> Username: <input align=right type="text" name="user"></input> <p id="porukaUser"></p></td> </tr>
+			<tr>
+			<td> Password: <input align=right type="text" name="pass"></input> <p id="porukaPassword"></p></td> 	
+		</tr>
+		<tr>
+			<td> Email: <input align=right type="text" name="email"></input><p id="porukaEmail"></p> </td> 	
+		</tr>
+		<tr>  
+		<td> <input type="submit" value="Registruj se"></td> </tr>
+	</table>
+</form>
+<script src="file.js"></script>
+</div>
+<div id="infoKorisnicima" class="kolona dva">
+Info korisnicima...
+</div>
+</div>
+
+</body>
+</HTML>

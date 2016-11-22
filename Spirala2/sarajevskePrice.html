@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<HTML>
+
+<HEAD>
+<TITLE>
+Sarajevo Through History
+</TITLE>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Delicious">
+<link rel="stylesheet" media='screen and (min-width: 960px), (orientation:landscape) and (min-width:800)' href="stil1.css"/>
+<link rel="stylesheet" media='screen and (min-width: 300px) and (max-width:960px)' href="stil2.css"/>
+
+</HEAD>
+
+<body>
+
+<div id="priceNaslov" class="kolona dva">
+
+<h1> Pošalji nam svoju priču...</h1>
+</div>
+
+<div id=slike>
+<div id="slikaPrice" class="kolona jedan">
+<img src=slike/konkurs.jpg id=slikaPrice alt=slikaKonkurs>
+</div>
+
+<div id="slikaPrice2" class="kolona jedan">
+<img src=slike/konkurs2.jpg id=slikaPrice alt=slikaKonkurs>
+</div>
+
+</div>
+<div id="infoForma" class="kolona jedan">
+<p> Podijeli svoju priču o Sarajevu sa drugima. </p>
+
+
+<form name="formaSlanje" id="fs" method="GET" action="http://google.com" onsubmit="event.preventDefault(); return validirajKonkurs()">
+<table border="0">
+
+		<tr>
+			<td> Ime: <input align=right type="text" name="ime"></input> <p id="porukaPosiljalacIme"></p></td> </tr>
+			<tr>
+			<td> Prezime: <input align=right type="text" name="prezime"></input><p id="porukaPosiljalacPrezime"></p> </td> 	
+		</tr>
+		<tr>
+		<td> Spol: <input align=right type="radio" name="m" value="Muško" checked="checked">Muško</input>
+<input type="radio" name="ž" value="Žensko">Žensko</input> </td>
+		</tr>
+		<tr>
+		<td> Tekst (min. 500 karaktera): 
+		<br> <textarea name="Text1" cols="40" rows="10"></textarea><p id="porukaPrica"></p></td></tr>
+		<tr>
+		<td> <button type="submit"> Pošalji priču </button> </td></tr>
+	</table>
+</form>
+<script type="text/javascript" src="file.js"></script>
+</div>
+
+<div id="infoOSlanju" class="kolona jedan">
+<p>
+<em>"Priče o Sarajevu, priče o ljudima"</em> je zbirka priči koje su djelo samih građana Sarajeva. Ukoliko imate sklonost ka pisanju i zanimljivu priču/iskustvo čija se radnja odvija upravo u Sarajevu i tijesno je povezana sa njegovom historijom, sarajevskim ulicama, građevinama ili ljudima, popunite formu iznad i možda baš Vaša priča bude nagrađena i objavljena na našoj stranici!</p>
+
+Tema mjeseca novembra: 
+<a href="TemaMjesecaNovembar.pdf" download="file.pdf">link</a>
+
+</div>
+<div id=citat class="kolona dva">
+ "U Sarajevu sve ima svoju priču i u Sarajevu ništa nije slučajno."
+</div>
+</body>
+</HTML>

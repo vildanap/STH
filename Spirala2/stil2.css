@@ -1,0 +1,615 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows Into Light');
+@import url('https://fonts.googleapis.com/css?family=Open Sans');
+
+*{
+	box-sizing: border-box;
+
+}
+body {
+
+	background-color: #591e4b;
+	font-size: 62.5%;
+	font-family: 'Open Sans';
+	position: relative;
+	overflow:auto;
+
+}
+
+
+.red {
+
+	width:100%; /*960px*/
+	min-height:2px;
+}
+
+.kolona {
+	margin-left: 0%;
+	margin-right: 0%;
+	display: inline-block;
+    float: left;
+    
+}
+.kolona.dva {
+	width: 100%; /*960px*/
+}
+
+.kolona.jedan{
+	width:45%; /*720 px*/
+	margin-left:5%;
+	margin-right:5%;
+}
+
+.kolona.tri {
+
+	width: 33.33%;
+}
+
+.kolona:first-child {
+	margin-left: 0px;
+
+}
+
+.kolona:last-child {
+	margin-left: 0px;
+	
+}
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+#okvir {
+
+	margin-left:0px; /*320px*/
+	margin-right:0px;
+	width: 100%; /*960px*/
+	min-height: 1800px;
+	overflow: scroll;
+}
+
+#zaglavlje{
+
+	background-image: url(slike/cover.jpg);
+	font-family:'Shadows Into Light' ;
+	font-size:2em;
+	text-transform: bold;
+	text-align: center;
+	opacity: 0.8;
+	width: 100%;
+}
+
+
+#menu {
+
+	 background-color:#853192; /*ko i elementi liste*/
+	 color:white;
+	 width: 100%;
+}
+
+ul#menilista{
+
+	list-style-type: none;
+}
+
+#menu li {
+
+	font-size: 1em;
+	margin: 0%;  
+	list-style-type: none;
+	width: 100%;
+}
+
+#menu li a, a:visited {
+    background-color:#853192;
+    padding: 14px 25px;
+    text-align: left; 
+    text-decoration: none;
+    display:inline-block;
+    color:white;
+}
+
+#menu li a:hover,active {
+    background-color:#8531ff;
+    color:white;
+}
+
+#submenu li a, a:visited {
+    background-color:#853192;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    color:white;
+    opacity: 0.8;
+    width: 100px;
+}
+
+#submenu li a:hover,active {
+    background-color:#8531ff;
+    color:white;
+}
+
+#submenu {
+	background-image: url(slike/vijecnica2.jpg);
+	width: 100%;
+	height: 250px;
+
+}
+#submenuLista li {
+
+	display: block;
+	list-style-type: none;
+}
+
+#submenuLista ul{
+	list-style-type: none;
+}
+
+#glavniDioPocetna {
+
+
+	background-color: black;
+	width: 100%;
+}
+
+#glavniDioPocetna p{
+
+	color:white;
+	font-size: 1em;
+	text-align: left;
+
+}
+
+#glavniDioPocetna img {
+
+	width: 100%;
+}
+
+.center.image {
+	
+	margin-left:8.33%;	
+}
+
+#info {
+	position: relative;
+	height: 40px;
+	overflow: hidden;
+
+}
+#mailLogo {
+	opacity: 0.5;
+}
+#telLogo {
+	opacity: 0.5;
+}
+#vanjske {
+	margin-top: 12px;
+	opacity: 0.5;
+}
+#mailLogo img {
+
+	width: 30%;
+	height: auto;
+
+}
+#telLogo img {
+	width: 30%;
+	height: auto;
+}
+
+#vanjske img {
+	width: 20%;
+	height: auto;
+}
+
+#EM {
+	background-color: black;
+	height: 100px;
+	opacity: 0.5;
+	float: left;
+}
+#EM p {
+	text-transform:bold;
+	text-align: left;
+	margin-top:10.22%;
+	color: white;
+	font-size: 1.2em;
+}
+#EM a {
+	text-decoration: none;
+	color:white;
+}
+
+
+#TEL {
+	background-color: black;
+	height: 100px;
+	opacity: 0.5;
+	float: left;
+}
+#TEL p {
+	text-transform:bold;
+	text-align: left;
+	margin-top:10.22%;
+	color: white;
+	font-size: 1.2em;
+}
+
+#Eksterno {
+	background-color: black;
+	height: 100px;
+	opacity: 0.5;
+	float: left;
+}
+#Eksterno p {
+	text-transform:bold;
+	text-align: left;
+	margin-top:10.22%;
+	color: white;
+	font-size: 1.2em;
+}
+#infoKorisnicima {
+		background-color: #DAFAD4;
+		opacity: 0.5;
+		height: 150px;
+}
+#loginBody {
+
+	background-image: url(slike/srj.jpg);
+	overflow:auto;
+	height: 1000px;
+}
+#log {
+
+	background-color: #a1a1a1;
+	text-align: center;
+	width: 100%;
+}
+
+#logForma {
+
+	background-color: #F4D4FA;
+	margin-top:0px;
+	width: 100%;
+	margin-left: 0px;
+	height: 300px;
+	
+}
+
+#logForma form {
+
+		padding-top: 15px;
+		padding-left: 2px;
+		height:200px;
+		
+}
+#signUpForma form {
+
+		padding-top: 15px;
+		padding-left: 2px;
+		height:350px;
+		
+}
+
+#logForma form td button {
+	background-color: #853192; /* Green */
+    border: none;
+    color: white;
+    margin-top: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#signUpForma form button {
+	background-color: #853192; /* Green */
+    border: none;
+    color: white;
+    margin-top: 2px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#logForma td {
+	text-align:right;
+	font-size: 1.4em;
+	font-family: 'Open Sans';
+
+}
+
+#signUp {
+	background-color: #a1a1a1;
+	text-align: center;
+	width: 100%;
+}
+
+
+#signUpForma {
+
+	background-color: #DAFAD4;
+	margin-top: 0px;
+	width: 100%;
+	margin-left: 0px;
+
+}
+
+#infoKorisnicima {
+		background-color: #DAFAD4;
+		opacity: 0.5;
+		height: 150px;
+}
+
+
+#citat {
+
+	border-color: #853192;
+	background-color: #853192;
+	padding: 4px;
+	float: left;
+}
+#priceNaslov {
+		background-color: #a1a1a1;
+		text-align: center;
+
+}
+#infoForma {
+
+     background-color: #F4D4FA;
+     width: 100%;
+     padding-bottom: 30px;
+} 
+
+#infoForma p {
+
+	font-size:2em;
+	text-align:center;
+}
+#slike {
+	width: 100%;
+}
+
+#infoForma {
+
+	width: 100%;
+	margin-left:0px;
+}
+#infoOSlanju {
+
+	background-color: #a1a1a1;
+	font-size: 1.4em;
+	width: 100%;
+	float:left;
+	text-align:left;
+	height: 202px;
+	margin-left: 0px;
+	
+}
+
+#infoOSlanju p {
+	margin-top: 15px;
+}
+
+
+#infoForma form {
+
+		padding-top: 20px;
+		padding-left: 20px;
+		padding-right:20px;
+		float:left;
+		margin-left: 20px;
+
+}
+#infoForma td {
+	text-align:right;
+	font-size: 1.4em;
+	font-family: 'Open Sans';
+	padding: 3px;
+
+}
+
+#infoForma td button {
+    background-color: #853192; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#citat {
+
+	 background-color: #F4D4FA;
+	 width: 100%;
+	 font-size: 3em;
+	 font-family: Shadows into Light;
+	 margin-top: -20px;
+	 text-transform: bold;
+
+}
+#slikaPrice2 {
+
+	float:left;
+	width: 100%;
+	background-color: #853192;
+}
+
+#slikaPrice {
+	float:left;
+	width: 100%;
+	background-color: #853192;
+}
+
+#temaMjeseca {
+	
+	height: 36px;
+	width: 100%;
+	background-color: white;
+}
+
+#temaMjeseca p {
+	font-size: 1em;
+}
+
+
+#naDanasnjiDan {
+
+	 background-color: #D5DBDB; 
+	 height: 200px;
+	 width: 100%;
+	 margin:0px;
+}
+
+#vrijemeDanas {
+	background-color: #F6DDCC;
+	 height: 200px;
+	 width: 100%;
+	 margin:0px;
+}
+
+#submenuHistorija li a, a:visited {
+    background-color:#853192;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    color:white;
+    opacity: 0.8;
+    width: 100px;
+}
+
+#submenuHistorija li a:hover,active {
+    background-color:#8531ff;
+    color:white;
+}
+
+#submenuHistorija {
+	background-image: url(slike/muzej.jpg);
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+	
+}
+#submenuListaHistorija li {
+
+	display: block;
+}
+
+ul#submenuListaHistorija {
+	list-style-type: none;
+}
+
+#anketa {
+	color:white;
+	width: 100%;
+	height: 200px;
+	background-color: #784212;
+}
+
+#anketa p {
+
+	font-size: 1em;
+}
+
+#porukaIme, #porukaPass, #porukaUser, #porukaPassword, #porukaEmail {
+
+	color:red;
+}
+
+#infoForma #porukaPosiljalacIme, #infoForma #porukaPosiljalacPrezime,#infoForma #porukaPrica,#porukaGlasanje {
+
+	color:red;
+	font-size: 1em;
+}
+
+#aktuelnoDanas img
+{
+	 width: 100%;
+
+}
+
+#antikaSubMenu {
+	background-image: url(slike/roman.jpg);
+	width: 100%;
+	height: 350px;
+	overflow: hidden;
+	
+}
+
+#dropdugme{
+    background-color: #00661a;
+    color: white;
+    padding-left: 20px;
+    padding-right: 	20px;
+    padding-bottom: 10px;
+    padding-top: 	10px;
+    font-size: 2em;
+}
+
+#dropdownMenu {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+}
+
+.dropdown-content a {
+    color: #ff6666;
+    text-decoration:bold;
+    font-size: 1.7em;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ffe6e6}
+
+#dropdownMenu:hover .dropdown-content {
+    display: block;
+}
+
+#dropdownMenu:hover #dropdugme {
+	opacity:1%;
+}
+
+#antikaTreeMenu {
+	background-color: #ffe6e6;
+}
+#sadrzajStabla1,#sadrzajStabla2{
+	display: none;
+	transition: height 2s;
+	-webkit-transition: height 2s;
+	-moz-transition: height 2s;
+}
+
+#btn, #btn2 {
+
+	  background-color: #00661a;
+      min-width: 100px;
+      color:white;
+}
+
+#sadrzajStablaJedan,#sadrzajStablaDva {
+
+	display: none;
+}
+
+#sadrzajStablaJedan button {
+	color:black;
+	width: 100px;
+	background-color:#c2f0c2;
+}
+
+#sadrzajStablaDva button {
+	color:black;
+	width: 100px;
+	background-color:#c2f0c2;
+}
