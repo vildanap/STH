@@ -6,6 +6,43 @@ Vildana Panjeta (17087)
 Stranica je posvećena gradu Sarajevu i njegovim promjenama kroz vrijeme.
 Kao i građevinama nastalim u određenim epohama sa informacijama o nadolazećim dešavanjima u njima...
 
+#SPIRALA 2.
+
+## Šta je urađeno?<br/>
+a) Validacija formi u JavaScript-u (file.js): <br/>
+-validirajLogIn() (login.html)<br/>
+-validirajSignIn() (login.html)<br/>
+-validirajKonkurs() (historija.html)<br/>
+b) Implementirane su sljedeće funkcionalnosti:<br/>
+-dropdown meni (podstranica: historija.html -> antika.html)<br/>
+-meni u vidu stabla (podstranica: historija.html -> antika.html)<br/>
+-carousel (novosti.html)<br/>
+c) podstranice se učitavaju bez reloada cijele stranice<br/>
+
+## Šta nije urađeno?<br />
+-
+
+## Bug-ovi koje ste primijetili, ali niste stigli ispraviti, a znate rješenje (opis rješenja)<br />
+-
+
+## Bug-ovi koje ste primijetili, ali ne znate rješenje<br />
+Ukoliko je trenutna podstranica antika.html (podstranica podstranice historija.html), otvaranje podstranica menija (osim Početne/index.html) ne daje ispravan prikaz (ajax-problem?).
+## Lista fajlova u formatu NAZIVFAJLA - Opis u vidu jedne rečenice šta se u fajlu nalazi<br />
+
+JS: <br/>
+file.js
+
+CSS:<br />
+stil1.css - stil za desktop uređaje<br />
+stil2.css - stil za mobilne uređaje<br />
+
+HTML:<br />
+pocetna.html/index.html - Početna stranica. Sadrži kontakt i kratak opis o stranici.<br />
+novosti.html - Stranica sa novostima/najavama događaja. Unutar sebe sadrži linkove na druge postranice: vijesti, dešavanja, vaše priče, ličnost dana, vaše ocjene (trenutno nisu implementirane).<br />
+historija.html - Stranica sadrži linkove na druge podstranice/epohe u historiji grada (antičko doba, srednji vijek, osmansko doba, austrougarsko doba, moderno doba/trenutno nisu implentirane). Sadrži i anketu/pitanje dana; dodat će se i rezultati ankete.<br />
+sarajevskeprice.html - Stranica sa formom za slanje priče.<br />
+login.html -  Stranica sa formama: login i registracija.<br />
+antika.html - Podstranica stranice historija.html. Sadrži 2 menija.<br/>
 
 # SPIRALA 1.
 
