@@ -103,6 +103,10 @@ ul#meniLista{
     background-color:#8531ff;
     color:white;
 }
+#menuAdmin
+		{
+			background-color: #4CAF50;
+		}
 
 #submenu li a, a:visited {
     background-color:#853192;
@@ -137,8 +141,6 @@ ul#submenuLista {
 }
 
 #glavniDioPocetna {
-
-
 	background-color: black;
 }
 
@@ -149,13 +151,61 @@ ul#submenuLista {
 	text-align:left;
 }
 
-
 #glavniDioPocetna img{
 
 	width: 100%;
 	float:left;
 }
+ th {
+    		background-color: #4CAF50;
+   		 	color: black;
+   		 	font-size: 1.2em;
+	}
+#formaAdmin table {
+            border-collapse: collapse;
+            max-width: 100%;
+        }
+#formaAdmin td {
+            padding: 8px;
+            color:black;
+            font-size: 1.2em;
+            background-color: white;
+            text-align: left;
+    		border-bottom: 1px solid #ddd;
+        }
 
+#glavniDioPocetnaAdmin {
+	height: auto;
+	background:#FBF2EF;
+}
+#glavniDioPocetnaAdmin p{
+	color: black;
+	font-size: 1.7em;
+	text-align:left;
+}
+#glavniDioPocetnaAdmin a{
+
+	color: black;
+	font-size: 15px;
+}
+
+#formaPretraga p{
+	text-align: center;
+}
+#rezultatPretrage {
+  background-color: #EEFEF9;
+  text-align: left;
+  margin-right: auto;
+  margin-left:auto;
+
+}
+#pretraga {
+	background:#FBF2EF;
+	height: 700px;
+}
+#crudAdmin {
+	 background-color: #EEFEF9;
+}
 .center.image {
 	
 	margin-left:8.33%;	
@@ -164,6 +214,7 @@ ul#submenuLista {
 #info {
 	position: relative;
 	height: 40px;
+	overflow: hidden;
 
 }
 
@@ -267,11 +318,19 @@ ul#submenuLista {
 	
 }
 
-#logForma, #signUpForma form {
+#logForma form {
 
 		padding-top: 15px;
 		padding-left: 2px;
-		height:150px;
+		height:250px;
+		
+}
+
+#signUpForma form {
+
+		padding-top: 15px;
+		padding-left: 2px;
+		height:250px;
 		
 }
 
@@ -316,7 +375,7 @@ ul#submenuLista {
 
 	background-color: #DAFAD4;
 	margin-top: 0px;
-	height: 150px;
+	height: 250px;
 	width: 100%;
 
 }
@@ -492,3 +551,100 @@ ul#submenuListaHistorija {
 
 	font-size: 1em;
 }
+
+#porukaIme, #porukaPass, #porukaUser, #porukaPassword, #porukaEmail {
+
+	color:red;
+}
+
+#porukaTekst, #porukaNaslov {
+	color:black;
+	font-size: 1.2em;
+}
+
+#infoForma #porukaPosiljalacIme, #infoForma #porukaPosiljalacPrezime,#infoForma #porukaPrica,#porukaGlasanje {
+
+	color:red;
+	font-size: 1em;
+}
+
+#antikaSubMenu {
+	background-image: url(slike/roman.jpg);
+	width: 100%;
+	height: 350px;
+	overflow: hidden;
+	
+}
+
+#dropdugme{
+    background-color: #00661a;
+    color: white;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:10px;
+    padding-top:10px;
+    font-size: 2em;
+}
+
+#dropdownMenu {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+}
+
+.dropdown-content a {
+    color: #ff6666;
+    text-decoration:bold;
+    font-size: 1.7em;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ffe6e6}
+
+#dropdownMenu:hover .dropdown-content {
+    display: block;
+}
+
+#dropdownMenu:hover #dropdugme {
+	opacity:1%;
+}
+
+#antikaTreeMenu {
+	background-color: #ffe6e6;
+}
+
+#btn, #btn2 {
+
+	  background-color: #00661a;
+      min-width: 100px;
+      color:white;
+}
+
+#sadrzajStablaJedan,#sadrzajStablaDva {
+
+	display: none;
+}
+
+#sadrzajStablaJedan button {
+	color:black;
+	width: 100px;
+	background-color:#c2f0c2;
+}
+
+#sadrzajStablaDva button {
+	color:black;
+	width: 100px;
+	background-color:#c2f0c2;
+}
+
+#silikaTrenutna img {
+	width: 100%;
+}
+

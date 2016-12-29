@@ -28,26 +28,48 @@ Sarajevo Through History</div>
 <li> <a href="login.php">Login</a></li>
 </ul>
 </div>
-<div id="submenu" class="kolona dva">
-<ul id="submenuLista">
-<li> <a href="#"> Vijesti </a> </li>
-<li> <a href="#">Dešavanja</a></li>
-<li> <a href="#">Vaše priče</a></li>
-<li> <a href="#">Ličnost dana</a></li>
-<li> <a href="#">Vaše ocjene</a></li>
+<div id="okvir">
+<div id="zaglavlje" class="kolona dva">Sarajevo Through History</div>
+<div id="menu" class="kolona dva">
+<ul id="meniLista">
+<li class="aktivni"> <a href="index.html"> Početna </a> </li>
+<li> <a href="novosti.html">Novosti</a></li>
+<li> <a href="historija.html">Historija</a></li>
+<li> <a href="sarajevskeprice.html">Sarajevske priče</a></li>
+<li> <a href="login.html">Login</a></li>
 </ul>
 </div>
 
-<div id="naDanasnjiDan" class="kolona jedan">
-Na današnji dan...
+<div id="antikaSubMenu" class="kolona dva">
+<div id="dropdownMenu">
+<button id="dropdugme">Antika</button>
+<div class="dropdown-content">
+ <a href="#">Stanovništvo</a>
+ <a href="#">Kultura</a>
+ <a href="#">Nalazišta</a>
+  </div>
 </div>
-<div id="vrijemeDanas" class="kolona jedan">
-<img src=slike/vremenska.jpg alt=slika>
 </div>
-<div id="aktuelnoDanas" class="kolona dva" >
-<img id="slikaTrenutna" class="galerija" src=slike/najava.jpg alt=slika>
-<input type="button" onclick="prethodna()" value="Prethodna"></input> 
-<input type="button" onclick="sljedeca()" value="Sljedeća"></input> 
+
+<div id="antikaTreeMenu" class="kolona dva">
+<div id="prvoPodstablo">
+<input type="button" id=btn onclick="prikaziStabloJedan()" value="+ Novosti">
+<div id="sadrzajStablaJedan"> 
+<button>Novembar</button> <br>
+<button>Decembar</button>
+</div>
+</div>
+
+<div id="drugoPodstablo">
+<input type="button" id=btn2 onclick="prikaziStabloDva()" value="+ Galerija"></input>
+<div id="sadrzajStablaDva"> 
+<button>Najgledanije</button> <br>
+<button>Najnovije</button>
+</div>
+
+</div>
+
+</div>
 </div>
 </body>
 </HTML>

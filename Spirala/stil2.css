@@ -77,6 +77,7 @@ body {
 	width: 100%;
 }
 
+
 #menu {
 
 	 background-color:#853192; /*ko i elementi liste*/
@@ -84,45 +85,6 @@ body {
 	 width: 100%;
 }
 
-#glavniDioPocetnaAdmin {
-	height: auto;
-	background:#FBF2EF;
-}
-#glavniDioPocetnaAdmin p{
-	color: black;
-	font-size: 1.7em;
-	text-align:left;
-}
-#glavniDioPocetnaAdmin a{
-
-	color: black;
-}
-
-#formaPretraga p{
-	text-align: center;
-}
-#rezultatPretrage {
-  background-color: #EEFEF9;
-  text-align: left;
-  margin-right: auto;
-  margin-left:auto;
-
-}
-#menuAdmin
-		{
-			background-color: #4CAF50;
-		}
-#pretraga
-		{
-			background:#FBF2EF;
-			height: 1000px;
-		}
-#pretraga p
-		{
-			text-align: center;
-			margin-right: auto;
-  			margin-left:auto;
-		}
 ul#menilista{
 
 	list-style-type: none;
@@ -207,12 +169,7 @@ ul#menilista{
 	margin-left:8.33%;	
 }
 
-#info {
-	position: relative;
-	height: 40px;
-	overflow: hidden;
 
-}
 #mailLogo {
 	opacity: 0.5;
 }
@@ -309,22 +266,14 @@ ul#menilista{
 	margin-top:0px;
 	width: 100%;
 	margin-left: 0px;
-	height: 300px;
 	
 }
 
-#logForma form {
+#logForma, #signUpForma form {
 
 		padding-top: 15px;
 		padding-left: 2px;
-		height:200px;
-		
-}
-#signUpForma form {
-
-		padding-top: 15px;
-		padding-left: 2px;
-		height:350px;
+		height:150px;
 		
 }
 
@@ -340,18 +289,18 @@ ul#menilista{
     font-size: 16px;
 }
 
-#signUpForma form button {
+#signUpForma form td button {
 	background-color: #853192; /* Green */
     border: none;
     color: white;
-    margin-top: 2px;
+    margin-top: 5px;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
 }
-#logForma td {
+#logForma, #signUpForma td {
 	text-align:right;
 	font-size: 1.4em;
 	font-family: 'Open Sans';
@@ -369,6 +318,7 @@ ul#menilista{
 
 	background-color: #DAFAD4;
 	margin-top: 0px;
+	height: 150px;
 	width: 100%;
 	margin-left: 0px;
 
@@ -546,108 +496,4 @@ ul#submenuListaHistorija {
 	width: 100%;
 	height: 200px;
 	background-color: #784212;
-}
-
-#anketa p {
-
-	font-size: 1em;
-}
-
-#porukaIme, #porukaPass, #porukaUser, #porukaPassword, #porukaEmail {
-
-	color:red;
-}
-
-#infoForma #porukaPosiljalacIme, #infoForma #porukaPosiljalacPrezime,#infoForma #porukaPrica,#porukaGlasanje {
-
-	color:red;
-	font-size: 1em;
-}
-
-#aktuelnoDanas img
-{
-	 width: 100%;
-
-}
-
-#antikaSubMenu {
-	background-image: url(slike/roman.jpg);
-	width: 100%;
-	height: 350px;
-	overflow: hidden;
-	
-}
-
-#dropdugme{
-    background-color: #00661a;
-    color: white;
-    padding-left: 20px;
-    padding-right: 	20px;
-    padding-bottom: 10px;
-    padding-top: 	10px;
-    font-size: 2em;
-}
-
-#dropdownMenu {
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 100px;
-}
-
-.dropdown-content a {
-    color: #ff6666;
-    text-decoration:bold;
-    font-size: 1.7em;
-    padding: 10px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {background-color: #ffe6e6}
-
-#dropdownMenu:hover .dropdown-content {
-    display: block;
-}
-
-#dropdownMenu:hover #dropdugme {
-	opacity:1%;
-}
-
-#antikaTreeMenu {
-	background-color: #ffe6e6;
-}
-#sadrzajStabla1,#sadrzajStabla2{
-	display: none;
-	transition: height 2s;
-	-webkit-transition: height 2s;
-	-moz-transition: height 2s;
-}
-
-#btn, #btn2 {
-
-	  background-color: #00661a;
-      min-width: 100px;
-      color:white;
-}
-
-#sadrzajStablaJedan,#sadrzajStablaDva {
-
-	display: none;
-}
-
-#sadrzajStablaJedan button {
-	color:black;
-	width: 100px;
-	background-color:#c2f0c2;
-}
-
-#sadrzajStablaDva button {
-	color:black;
-	width: 100px;
-	background-color:#c2f0c2;
 }

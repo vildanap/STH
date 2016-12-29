@@ -7,15 +7,17 @@
 }
 body {
 
-	background-color: #591e4b;
+	background-color:#591e4b;
 	font-size: 62.5%;
 	font-family: 'Open Sans';
 	position: relative;
 	overflow:auto;
-
+	height: 100%;
 }
 
-
+body .img {
+	opacity: 0.5;
+}
 .red {
 
 	width:100%; /*960px*/
@@ -27,16 +29,13 @@ body {
 	margin-right: 0%;
 	display: inline-block;
     float: left;
-    
 }
 .kolona.dva {
 	width: 100%; /*960px*/
 }
 
 .kolona.jedan{
-	width:45%; /*720 px*/
-	margin-left:5%;
-	margin-right:5%;
+	width:50%; /*720 px*/
 }
 
 .kolona.tri {
@@ -59,92 +58,47 @@ body {
 }
 #okvir {
 
-	margin-left:0px; /*320px*/
-	margin-right:0px;
-	width: 100%; /*960px*/
-	min-height: 1800px;
-	overflow: scroll;
+	margin-left:20%; /*320px*/
+	margin-right:20%;
+	width: 60%; /*960px*/
+	height: 2000px;
 }
+
 
 #zaglavlje{
 
 	background-image: url(slike/cover.jpg);
 	font-family:'Shadows Into Light' ;
-	font-size:2em;
-	text-transform: bold;
+	font-size:5em;
 	text-align: center;
-	opacity: 0.8;
-	width: 100%;
+	opacity:0.8;
 }
 
 #menu {
 
 	 background-color:#853192; /*ko i elementi liste*/
-	 color:white;
-	 width: 100%;
+	 color:black;
 }
-
-#glavniDioPocetnaAdmin {
-	height: auto;
-	background:#FBF2EF;
-}
-#glavniDioPocetnaAdmin p{
-	color: black;
-	font-size: 1.7em;
-	text-align:left;
-}
-#glavniDioPocetnaAdmin a{
-
-	color: black;
-}
-
-#formaPretraga p{
-	text-align: center;
-}
-#rezultatPretrage {
-  background-color: #EEFEF9;
-  text-align: left;
-  margin-right: auto;
-  margin-left:auto;
-
-}
-#menuAdmin
-		{
-			background-color: #4CAF50;
-		}
-#pretraga
-		{
-			background:#FBF2EF;
-			height: 1000px;
-		}
-#pretraga p
-		{
-			text-align: center;
-			margin-right: auto;
-  			margin-left:auto;
-		}
-ul#menilista{
+ul#meniLista{
 
 	list-style-type: none;
 }
 
 #menu li {
 
-	font-size: 1em;
-	margin: 0%;  
-	list-style-type: none;
-	width: 100%;
+	display: inline;
+	font-size: 2em;
+	margin: 2%;  
 }
 
 #menu li a, a:visited {
     background-color:#853192;
     padding: 14px 25px;
-    text-align: left; 
+    text-align: center; 
     text-decoration: none;
-    display:inline-block;
+    display: inline-block;
     color:white;
 }
-
 #menu li a:hover,active {
     background-color:#8531ff;
     color:white;
@@ -167,18 +121,18 @@ ul#menilista{
 }
 
 #submenu {
-	background-image: url(slike/vijecnica2.jpg);
+	background-image: url(slike/vijecnica.jpg);
 	width: 100%;
 	height: 250px;
+	overflow: hidden;
 
 }
 #submenuLista li {
 
 	display: block;
-	list-style-type: none;
 }
 
-#submenuLista ul{
+ul#submenuLista {
 	list-style-type: none;
 }
 
@@ -186,20 +140,20 @@ ul#menilista{
 
 
 	background-color: black;
-	width: 100%;
 }
 
 #glavniDioPocetna p{
 
-	color:white;
-	font-size: 1em;
-	text-align: left;
-
+	color: white;
+	font-size: 1.7em;
+	text-align:left;
 }
 
-#glavniDioPocetna img {
+
+#glavniDioPocetna img{
 
 	width: 100%;
+	float:left;
 }
 
 .center.image {
@@ -210,9 +164,9 @@ ul#menilista{
 #info {
 	position: relative;
 	height: 40px;
-	overflow: hidden;
 
 }
+
 #mailLogo {
 	opacity: 0.5;
 }
@@ -244,19 +198,22 @@ ul#menilista{
 	height: 100px;
 	opacity: 0.5;
 	float: left;
+
+
 }
 #EM p {
 	text-transform:bold;
-	text-align: left;
+	float: left;
 	margin-top:10.22%;
 	color: white;
 	font-size: 1.2em;
+	overflow: hidden;
 }
+
 #EM a {
 	text-decoration: none;
 	color:white;
 }
-
 
 #TEL {
 	background-color: black;
@@ -266,10 +223,11 @@ ul#menilista{
 }
 #TEL p {
 	text-transform:bold;
-	text-align: left;
+	float: left;
 	margin-top:10.22%;
 	color: white;
 	font-size: 1.2em;
+
 }
 
 #Eksterno {
@@ -277,24 +235,22 @@ ul#menilista{
 	height: 100px;
 	opacity: 0.5;
 	float: left;
+
 }
 #Eksterno p {
 	text-transform:bold;
-	text-align: left;
+	float: left;
 	margin-top:10.22%;
 	color: white;
 	font-size: 1.2em;
+
 }
-#infoKorisnicima {
-		background-color: #DAFAD4;
-		opacity: 0.5;
-		height: 150px;
-}
+
 #loginBody {
 
 	background-image: url(slike/srj.jpg);
-	overflow:auto;
-	height: 1000px;
+	height: 100%;
+	overflow: scroll;
 }
 #log {
 
@@ -308,23 +264,14 @@ ul#menilista{
 	background-color: #F4D4FA;
 	margin-top:0px;
 	width: 100%;
-	margin-left: 0px;
-	height: 300px;
 	
 }
 
-#logForma form {
+#logForma, #signUpForma form {
 
 		padding-top: 15px;
 		padding-left: 2px;
-		height:200px;
-		
-}
-#signUpForma form {
-
-		padding-top: 15px;
-		padding-left: 2px;
-		height:350px;
+		height:150px;
 		
 }
 
@@ -340,18 +287,18 @@ ul#menilista{
     font-size: 16px;
 }
 
-#signUpForma form button {
+#signUpForma form td button {
 	background-color: #853192; /* Green */
     border: none;
     color: white;
-    margin-top: 2px;
+    margin-top: 5px;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
 }
-#logForma td {
+#logForma, #signUpForma td {
 	text-align:right;
 	font-size: 1.4em;
 	font-family: 'Open Sans';
@@ -369,8 +316,8 @@ ul#menilista{
 
 	background-color: #DAFAD4;
 	margin-top: 0px;
+	height: 150px;
 	width: 100%;
-	margin-left: 0px;
 
 }
 
@@ -379,20 +326,12 @@ ul#menilista{
 		opacity: 0.5;
 		height: 150px;
 }
-
-
-#citat {
-
-	border-color: #853192;
-	background-color: #853192;
-	padding: 4px;
-	float: left;
-}
 #priceNaslov {
 		background-color: #a1a1a1;
 		text-align: center;
 
 }
+
 #infoForma {
 
      background-color: #F4D4FA;
@@ -405,15 +344,7 @@ ul#menilista{
 	font-size:2em;
 	text-align:center;
 }
-#slike {
-	width: 100%;
-}
 
-#infoForma {
-
-	width: 100%;
-	margin-left:0px;
-}
 #infoOSlanju {
 
 	background-color: #a1a1a1;
@@ -422,7 +353,6 @@ ul#menilista{
 	float:left;
 	text-align:left;
 	height: 202px;
-	margin-left: 0px;
 	
 }
 
@@ -469,17 +399,27 @@ ul#menilista{
 	 text-transform: bold;
 
 }
-#slikaPrice2 {
-
-	float:left;
-	width: 100%;
-	background-color: #853192;
+#slike {
+	position: relative;
 }
 
-#slikaPrice {
+#slikaPrice2 img{
+
 	float:left;
-	width: 100%;
-	background-color: #853192;
+	max-width: 100%;
+	min-width: 100%;
+	min-height: 360px;
+	max-height: 360px;
+
+}
+
+#slikaPrice img{
+	float:left;
+	max-width: 100%;
+	min-width: 100%;
+	min-height: 360px;
+	max-height: 360px;
+	
 }
 
 #temaMjeseca {
@@ -490,23 +430,24 @@ ul#menilista{
 }
 
 #temaMjeseca p {
-	font-size: 1em;
+	font-size: 1.4em;
 }
-
 
 #naDanasnjiDan {
 
 	 background-color: #D5DBDB; 
-	 height: 200px;
-	 width: 100%;
-	 margin:0px;
+	 height: 202px;
 }
 
-#vrijemeDanas {
-	background-color: #F6DDCC;
-	 height: 200px;
-	 width: 100%;
-	 margin:0px;
+#vrijemeDanas img{
+	width: 100%;
+	 height: 202px;
+}
+
+#aktuelnoDanas img {
+	width: 100%;
+	margin-top: 0px;
+
 }
 
 #submenuHistorija li a, a:visited {
@@ -528,7 +469,7 @@ ul#menilista{
 #submenuHistorija {
 	background-image: url(slike/muzej.jpg);
 	width: 100%;
-	height: 400px;
+	height: 350px;
 	overflow: hidden;
 	
 }
@@ -543,7 +484,6 @@ ul#submenuListaHistorija {
 
 #anketa {
 	color:white;
-	width: 100%;
 	height: 200px;
 	background-color: #784212;
 }
@@ -551,103 +491,4 @@ ul#submenuListaHistorija {
 #anketa p {
 
 	font-size: 1em;
-}
-
-#porukaIme, #porukaPass, #porukaUser, #porukaPassword, #porukaEmail {
-
-	color:red;
-}
-
-#infoForma #porukaPosiljalacIme, #infoForma #porukaPosiljalacPrezime,#infoForma #porukaPrica,#porukaGlasanje {
-
-	color:red;
-	font-size: 1em;
-}
-
-#aktuelnoDanas img
-{
-	 width: 100%;
-
-}
-
-#antikaSubMenu {
-	background-image: url(slike/roman.jpg);
-	width: 100%;
-	height: 350px;
-	overflow: hidden;
-	
-}
-
-#dropdugme{
-    background-color: #00661a;
-    color: white;
-    padding-left: 20px;
-    padding-right: 	20px;
-    padding-bottom: 10px;
-    padding-top: 	10px;
-    font-size: 2em;
-}
-
-#dropdownMenu {
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 100px;
-}
-
-.dropdown-content a {
-    color: #ff6666;
-    text-decoration:bold;
-    font-size: 1.7em;
-    padding: 10px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {background-color: #ffe6e6}
-
-#dropdownMenu:hover .dropdown-content {
-    display: block;
-}
-
-#dropdownMenu:hover #dropdugme {
-	opacity:1%;
-}
-
-#antikaTreeMenu {
-	background-color: #ffe6e6;
-}
-#sadrzajStabla1,#sadrzajStabla2{
-	display: none;
-	transition: height 2s;
-	-webkit-transition: height 2s;
-	-moz-transition: height 2s;
-}
-
-#btn, #btn2 {
-
-	  background-color: #00661a;
-      min-width: 100px;
-      color:white;
-}
-
-#sadrzajStablaJedan,#sadrzajStablaDva {
-
-	display: none;
-}
-
-#sadrzajStablaJedan button {
-	color:black;
-	width: 100px;
-	background-color:#c2f0c2;
-}
-
-#sadrzajStablaDva button {
-	color:black;
-	width: 100px;
-	background-color:#c2f0c2;
 }
