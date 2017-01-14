@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odgovori>
+  <odgovor>
+    <tekst>Seher</tekst>
+    <redniBroj>1</redniBroj>
+  </odgovor>
+  <odgovor>
+    <tekst>Vrhbosna</tekst>
+    <redniBroj>2</redniBroj>
+  </odgovor>
+  <odgovor>
+    <tekst>Seher</tekst>
+    <redniBroj>3</redniBroj>
+  </odgovor>
+  <odgovor>
+    <tekst>Vrhbosna</tekst>
+    <redniBroj>4</redniBroj>
+  </odgovor>
+  <odgovor>
+    <tekst>Seher</tekst>
+    <redniBroj>5</redniBroj>
+  </odgovor>
+</odgovori>

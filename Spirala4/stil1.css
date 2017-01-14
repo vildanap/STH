@@ -1,0 +1,666 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows Into Light');
+@import url('https://fonts.googleapis.com/css?family=Open Sans');
+
+*{
+	box-sizing: border-box;
+
+}
+body {
+
+	background-color:#591e4b;
+	font-size: 62.5%;
+	font-family: 'Open Sans';
+	position: relative;
+	overflow:auto;
+	height: 100%;
+}
+
+body .img {
+	opacity: 0.5;
+}
+.red {
+
+	width:100%; /*960px*/
+	min-height:2px;
+}
+
+.kolona {
+	margin-left: 0%;
+	margin-right: 0%;
+	display: inline-block;
+    float: left;
+}
+.kolona.dva {
+	width: 100%; /*960px*/
+}
+
+.kolona.jedan{
+	width:50%; /*720 px*/
+}
+
+.kolona.tri {
+
+	width: 33.33%;
+}
+
+.kolona:first-child {
+	margin-left: 0px;
+
+}
+
+.kolona:last-child {
+	margin-left: 0px;
+	
+}
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+#okvir {
+
+	margin-left:20%; /*320px*/
+	margin-right:20%;
+	width: 60%; /*960px*/
+	height: 2000px;
+}
+
+
+#zaglavlje{
+
+	background-image: url(slike/cover.jpg);
+	font-family:'Shadows Into Light' ;
+	font-size:5em;
+	text-align: center;
+	opacity:0.8;
+}
+
+#menu {
+
+	 background-color:#853192; /*ko i elementi liste*/
+	 color:black;
+}
+ul#meniLista{
+
+	list-style-type: none;
+}
+
+#menu li {
+
+	display: inline;
+	font-size: 2em;
+	margin: 2%;  
+}
+
+#menu li a, a:visited {
+    background-color:#853192;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    color:white;
+}
+#menu li a:hover,active {
+    background-color:#8531ff;
+    color:white;
+}
+#menuAdmin
+		{
+			background-color: #4CAF50;
+		}
+
+#submenu li a, a:visited {
+    background-color:#853192;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    color:white;
+    opacity: 0.8;
+    width: 100px;
+}
+
+#submenu li a:hover,active {
+    background-color:#8531ff;
+    color:white;
+}
+
+#submenu {
+	background-image: url(slike/vijecnica.jpg);
+	width: 100%;
+	height: 250px;
+	overflow: hidden;
+
+}
+#submenuLista li {
+
+	display: block;
+}
+
+ul#submenuLista {
+	list-style-type: none;
+}
+
+#glavniDioPocetna {
+	background-color: black;
+}
+
+#glavniDioPocetna p{
+
+	color: white;
+	font-size: 1.7em;
+	text-align:left;
+}
+
+#glavniDioPocetna img{
+
+	width: 100%;
+	float:left;
+}
+ th {
+    		background-color: #4CAF50;
+   		 	color: black;
+   		 	font-size: 1.2em;
+	}
+#formaAdmin table {
+            border-collapse: collapse;
+            max-width: 100%;
+        }
+#formaAdmin td {
+            padding: 8px;
+            color:black;
+            font-size: 1.2em;
+            background-color: white;
+            text-align: left;
+    		border-bottom: 1px solid #ddd;
+        }
+
+#glavniDioPocetnaAdmin {
+	height: auto;
+	background:#FBF2EF;
+}
+#glavniDioPocetnaAdmin p{
+	color: black;
+	font-size: 1.7em;
+	text-align:left;
+}
+#glavniDioPocetnaAdmin a{
+
+	color: black;
+	font-size: 15px;
+}
+
+#formaPretraga p{
+	text-align: center;
+}
+#rezultatPretrage {
+  background-color: #EEFEF9;
+  text-align: left;
+  margin-right: auto;
+  margin-left:auto;
+
+}
+#pretraga {
+	background:#FBF2EF;
+	height: 700px;
+}
+#crudAdmin {
+	 background-color: #EEFEF9;
+}
+#menuKorisnik {
+
+	background-image: url(slike/cover2.jpg); 
+	width: 100%;
+	height: 350px;
+	overflow: hidden;
+}
+#ratingDogadjaja
+{
+	background-color: #EEFEF9;
+	height: 800px;
+}
+#menuRegistrovani {
+	background-color: #071144;
+	color:white;
+}
+.center.image {
+	
+	margin-left:8.33%;	
+}
+
+#info {
+	position: relative;
+	height: 40px;
+	overflow: hidden;
+
+}
+
+#mailLogo {
+	opacity: 0.5;
+}
+#telLogo {
+	opacity: 0.5;
+}
+#vanjske {
+	margin-top: 12px;
+	opacity: 0.5;
+}
+#mailLogo img {
+
+	width: 30%;
+	height: auto;
+
+}
+#telLogo img {
+	width: 30%;
+	height: auto;
+}
+
+#vanjske img {
+	width: 20%;
+	height: auto;
+}
+
+#EM {
+	background-color: black;
+	height: 100px;
+	opacity: 0.5;
+	float: left;
+
+
+}
+#EM p {
+	text-transform:bold;
+	float: left;
+	margin-top:10.22%;
+	color: white;
+	font-size: 1.2em;
+	overflow: hidden;
+}
+
+#EM a {
+	text-decoration: none;
+	color:white;
+}
+
+#TEL {
+	background-color: black;
+	height: 100px;
+	opacity: 0.5;
+	float: left;
+}
+#TEL p {
+	text-transform:bold;
+	float: left;
+	margin-top:10.22%;
+	color: white;
+	font-size: 1.2em;
+
+}
+
+#Eksterno {
+	background-color: black;
+	height: 100px;
+	opacity: 0.5;
+	float: left;
+
+}
+#Eksterno p {
+	text-transform:bold;
+	float: left;
+	margin-top:10.22%;
+	color: white;
+	font-size: 1.2em;
+
+}
+
+#loginBody {
+
+	background-image: url(slike/srj.jpg);
+	height: 100%;
+	overflow: scroll;
+}
+#log {
+
+	background-color: #a1a1a1;
+	text-align: center;
+	width: 100%;
+}
+
+#logForma {
+
+	background-color: #F4D4FA;
+	margin-top:0px;
+	width: 100%;
+	
+}
+
+#logForma form {
+
+		padding-top: 15px;
+		padding-left: 2px;
+		height:250px;
+		
+}
+
+#signUpForma form {
+
+		padding-top: 15px;
+		padding-left: 2px;
+		height:250px;
+		
+}
+
+#logForma form td button {
+	background-color: #853192; /* Green */
+    border: none;
+    color: white;
+    margin-top: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#signUpForma form td button {
+	background-color: #853192; /* Green */
+    border: none;
+    color: white;
+    margin-top: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#logForma, #signUpForma td {
+	text-align:right;
+	font-size: 1.4em;
+	font-family: 'Open Sans';
+
+}
+
+#signUp {
+	background-color: #a1a1a1;
+	text-align: center;
+	width: 100%;
+}
+
+
+#signUpForma {
+
+	background-color: #DAFAD4;
+	margin-top: 0px;
+	height: 250px;
+	width: 100%;
+
+}
+
+#infoKorisnicima {
+		background-color: #DAFAD4;
+		opacity: 0.5;
+		height: 150px;
+}
+#priceNaslov {
+		background-color: #a1a1a1;
+		text-align: center;
+
+}
+
+#infoForma {
+
+     background-color: #F4D4FA;
+     width: 100%;
+     padding-bottom: 30px;
+} 
+
+#infoForma p {
+
+	font-size:2em;
+	text-align:center;
+}
+
+#infoOSlanju {
+
+	background-color: #a1a1a1;
+	font-size: 1.4em;
+	width: 100%;
+	float:left;
+	text-align:left;
+	height: 202px;
+	
+}
+
+#infoOSlanju p {
+	margin-top: 15px;
+}
+
+
+#infoForma form {
+
+		padding-top: 20px;
+		padding-left: 20px;
+		padding-right:20px;
+		float:left;
+		margin-left: 20px;
+
+}
+#infoForma td {
+	text-align:right;
+	font-size: 1.4em;
+	font-family: 'Open Sans';
+	padding: 3px;
+
+}
+
+#infoForma td button {
+    background-color: #853192; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#citat {
+
+	 background-color: #F4D4FA;
+	 width: 100%;
+	 font-size: 3em;
+	 font-family: Shadows into Light;
+	 margin-top: -20px;
+	 text-transform: bold;
+
+}
+#slike {
+	position: relative;
+}
+
+#slikaPrice2 img{
+
+	float:left;
+	max-width: 100%;
+	min-width: 100%;
+	min-height: 360px;
+	max-height: 360px;
+
+}
+
+#slikaPrice img{
+	float:left;
+	max-width: 100%;
+	min-width: 100%;
+	min-height: 360px;
+	max-height: 360px;
+	
+}
+
+#temaMjeseca {
+	
+	height: 36px;
+	width: 100%;
+	background-color: white;
+}
+
+#temaMjeseca p {
+	font-size: 1.4em;
+}
+
+#naDanasnjiDan {
+
+	 background-color: #D5DBDB; 
+	 height: 202px;
+}
+
+#vrijemeDanas img{
+	width: 100%;
+	 height: 202px;
+}
+
+#aktuelnoDanas img {
+	width: 100%;
+	margin-top: 0px;
+
+}
+
+#submenuHistorija li a, a:visited {
+    background-color:#853192;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    color:white;
+    opacity: 0.8;
+    width: 100px;
+}
+
+#submenuHistorija li a:hover,active {
+    background-color:#8531ff;
+    color:white;
+}
+
+#submenuHistorija {
+	background-image: url(slike/muzej.jpg);
+	width: 100%;
+	height: 350px;
+	overflow: hidden;
+	
+}
+#submenuListaHistorija li {
+
+	display: block;
+}
+
+ul#submenuListaHistorija {
+	list-style-type: none;
+}
+
+#anketa {
+	color:white;
+	height: 200px;
+	background-color: #784212;
+}
+
+#anketa p {
+
+	font-size: 1em;
+}
+
+#porukaIme, #porukaPass, #porukaUser, #porukaPassword, #porukaPassword2, #porukaEmail {
+
+	color:red;
+}
+
+#porukaTekst, #porukaNaslov {
+	color:black;
+	font-size: 1.2em;
+}
+
+#infoForma #porukaPosiljalacIme, #infoForma #porukaPosiljalacPrezime,#infoForma #porukaPrica,#porukaGlasanje {
+
+	color:red;
+	font-size: 1em;
+}
+
+#antikaSubMenu {
+	background-image: url(slike/roman.jpg);
+	width: 100%;
+	height: 350px;
+	overflow: hidden;
+	
+}
+
+#dropdugme{
+    background-color: #00661a;
+    color: white;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:10px;
+    padding-top:10px;
+    font-size: 2em;
+}
+
+#dropdownMenu {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+}
+
+.dropdown-content a {
+    color: #ff6666;
+    text-decoration:bold;
+    font-size: 1.7em;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ffe6e6}
+
+#dropdownMenu:hover .dropdown-content {
+    display: block;
+}
+
+#dropdownMenu:hover #dropdugme {
+	opacity:1%;
+}
+
+#antikaTreeMenu {
+	background-color: #ffe6e6;
+}
+
+#btn, #btn2 {
+
+	  background-color: #00661a;
+      min-width: 100px;
+      color:white;
+}
+
+#sadrzajStablaJedan,#sadrzajStablaDva {
+
+	display: none;
+}
+
+#sadrzajStablaJedan button {
+	color:black;
+	width: 100px;
+	background-color:#c2f0c2;
+}
+
+#sadrzajStablaDva button {
+	color:black;
+	width: 100px;
+	background-color:#c2f0c2;
+}
+
+#silikaTrenutna img {
+	width: 100%;
+}
+
