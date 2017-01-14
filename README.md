@@ -11,7 +11,7 @@ Kao i građevinama nastalim u određenim epohama sa informacijama o nadolazećim
 1.Napravljena MySql baza sa min 3 povezane tabele (korisnici->dogadjaj->rating).<br>
 Dodana mogućnost registracije korisnika (login.php), nakon čije se uspješne prijave otvara podstranica pocetnaRegistrovaniKorisnik.php, gdje registrovani korisnik ima mogućnost da ocijeni događaje. Kreirane su i tabele: anketa i priče.<br>
 Pristupni podaci za registrovanog korisnika: vildana, šifra: 123456 <br>
-2.Napravljena PHP skripta koja prebaca sve podatke iz XML-a u bazu, ukoliko se oni već ne nalaze u bazi. Poziva se klikom na dugme "Prebaci iz XML u bazu" na podstranici pocetnaAdmin.php. Pristupni podaci za admina: admin, sifra:123456<br>
+2.Napravljena PHP skripta koja prebaca sve podatke iz XML-a u bazu, ukoliko se oni već ne nalaze u bazi. Poziva se klikom na dugme "Prebaci iz XML u bazu" na podstranici pocetnaAdmin.php. Pristupni podaci za admina: admin, šifra:123456<br>
 3.Prilagođene PHP skripte za rad sa bazom (historija.php. login.php, sarajevskePrice.php, pocetnaAdmin.php, search.php, pretragaDogadjaja.php, csv.php, pdf.php)<br>
 4. Napravljena metoda GET REST web servisa koja vraća podatke u obliku JSON-a (događaje i priče) -> api.php<br>
 5. Testiran web servis pomoću POSTMAN i priložene fotografije u POSTMANIzvjestaj folderu. <br>
@@ -29,7 +29,7 @@ Nakon što se skripta pocetnaAdmin.php prilagodila tako da radi sa bazom, operac
 api.php - php skripta za REST web servis<br>
 pocetnaRegistrovaniKorisnik.php - podstranica na kojoj registrovani korisnik može ocijeniti događaje<br>
 prebaci.php - skripta za prebacivanje podataka iz XML-a u bazu<br>
-rating.php - skripta za unos podataka u tabelu rating (ocjenjivanje događaja)
+rating.php - skripta za unos podataka u tabelu rating (ocjenjivanje događaja)<br>
 
 #SPIRALA 3.
 
