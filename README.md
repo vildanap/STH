@@ -6,6 +6,48 @@ Vildana Panjeta (17087)
 Stranica je posvećena gradu Sarajevu i njegovim promjenama kroz vrijeme.
 Kao i građevinama nastalim u određenim epohama sa informacijama o nadolazećim dešavanjima u njima...
 
+#SPIRALA 3.
+
+## Šta je urađeno?<br/>
+1.Serijalizacija podataka:<br/>
+a) forma anketa (historija.php - > anketa.xml). Popunjava je "obični" korisnik.<br/>
+b) forma prica (sarajevskePrice.php - > sarajevskePrice.xml). Popunjava je "obični" korisnik.<br/>
+c) forma login (login.php, za sada omogucen login samo administratora, pa samim tim u xml-u se nalaze jedino njegovi podaci).</br>
+Pristupni podaci za administratora:<br>
+username: admin<br/>
+password: 123456<br/>
+d) Nakon login-a otvara se admin panel (pocetnaAdministrator.php). Omogućen je samo njemu unos, brisanje i izmjena događaja. Događaji se dodaju u dogadjaj.xml fajl.<br/>
+Urađena validacija podataka prije upisa u xml.<br/>
+2.Download u obliku csv<br/>
+Link na admin-ovom panelu: Preuzmi CSV (preuzima podatke iz sarajevskePrice.xml)<br/>
+3. Generisanje PDF-a<br/>
+Link na admin-ovom panelu: Preuzmi PDF (preuzima podatke iz anketa.xml)<br/>
+4. Pretraga događaja<br/>
+Link na admin-ovom panelu: Pretraga događaja (admin može pretražiti događaje po nazivu i mjestu događaja, prikaz do 10 rezultata)<br/>
+5. Deployment stranice na OpenShift<br/>
+Link : http://sth-sth.44fs.preview.openshiftapps.com/
+<br/>
+## Šta nije urađeno?<br />
+-
+
+## Bug-ovi koje ste primijetili, ali niste stigli ispraviti, a znate rješenje (opis rješenja)<br />
+-
+
+## Bug-ovi koje ste primijetili, ali ne znate rješenje<br />
+
+## Lista fajlova u formatu NAZIVFAJLA - Opis u vidu jedne rečenice šta se u fajlu nalazi<br />
+pocetnaAdmin.php - adminov panel<br/>
+pretragaDogadjaja.php - podstranica za pretragu dogadjaja i php skripta za prikazivanje rezultata pretrage klikom na dugme <br/>
+search.php - php skripta za pretragu dogadjaja prilikom kucanja znakova <br/>
+pdf.php - php skripta za generisanje PDF-a<br/>
+csv.php - php skripta za generisanje csv-a<br/>
+logout.php - php skripta za odjavu admin-a<br/>
+anketa.xml - xml sa rezultatima ankete <br/>
+dogadjaj.xml - xml sa upisanim dogadjajima <br/>
+pod.xml - xml sa admin-ovim podacima za prijavu <br/>
+sarajevskePrice.xml - xml sa poslanim pricama <br/>
+
+
 #SPIRALA 2.
 
 ## Šta je urađeno?<br/>
